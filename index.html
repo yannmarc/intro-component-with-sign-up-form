@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="stylesheet" href="./public/css/style.css">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <main>
+    <section>
+      <!-- text area -->
+      <div class="txt-container">
+        <div class="text">
+          <h1 class="head">Learn to code by watching others</h1>
+          <p class="b-text">See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+            but understanding how developers think is invaluable. </p>
+        </div>
+      </div>
+      <!-- text area ends -->
+
+      <div class="form-container">
+        <div class="offer m-b btn-primary box-shadow">
+          <p><span class="b-text">
+            Try it free 7 days</span> then <br> $20/mo. there after</p>
+        </div>
+
+        <!-- form area -->
+        <form action="" class="form txt-flex">
+          <input type="text" name="" id="first-name" placeholder="First Name">
+          <span class="img img-hidden" id="f-img"><img src="./images/icon-error.svg" width="20" alt=""></span>
+          <span class="hidden" id="not-first">Firt name cannot be empty</span>
+          <input type="text" name="" id="last-name" placeholder="Last Name">
+          <span class="img1 img-hidden" id="l-img"><img src="./images/icon-error.svg" width="20" alt="" ></span>
+          <span class="hidden" id="not-last">Last name cannot be empty</span>
+          <input type="email" name="" id="email" placeholder="Email Address">
+          <span class="img2 img-hidden" id="email-img"><img src="./images/icon-error.svg" width="20" alt="" ></span>
+          <span class="hidden" id="not-email">Looks like this is not an email</span>
+          <span class="hidden non-email" >Email cannot be empty</span>
+          <input type="password" name="" id="password" placeholder="Password">
+          <span class="img3 img-hidden" id="pass-img"><img src="./images/icon-error.svg" width="20" alt="" ></span>
+          <span class="hidden" id="not-password">password cannot be empty</span>
+
+          <button class="btn-secondary box-shadow" id="btn-submit">CLAIM YOUR FREE TRIAL</button>
+          <h5 class="txt-info">By clicking the button, you are agreeing to our <span class="red">Terms and Services</span></h5>
+        </form>
+        <!-- form area ends -->
+      </div>
+    </section>
+  </main>
+  
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </p>
+  </footer>
+
+  <script src="./public/js/app.js"></script>
+</body>
+</html>
